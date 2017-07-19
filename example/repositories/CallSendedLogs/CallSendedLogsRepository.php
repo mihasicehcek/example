@@ -1,0 +1,37 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Михаил
+ * Date: 14.07.2017
+ * Time: 16:11
+ */
+
+namespace App\Integrations\Bitrix24;
+
+
+use App\Models\Integrations\Bitrix24\Bitrix24CallSendLog;
+
+class CallSendedLogsRepository implements CallSendedLogsRepositoryInterface
+{
+
+    /**
+     * @param $callIds integer[]
+     *
+     * @return Bitrix24CallSendLog[]
+     * */
+    public function getSendedLogsByCallsIds(array $callIds)
+    {
+        return Bitrix24CallSendLog::whereIn("call_id", $callIds)->get();
+    }
+
+    public function loadSededCallsToCalls(CallsCollection $calls)
+    {
+        $calls->load('sendedCalls');
+    }
+
+
+    public function loadSededCallsToCall(Call $call)
+    {
+        $call->load('sendedCalls');
+    }
+}
