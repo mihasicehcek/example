@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76dde07c-1cf6-476f-92ac-dd061ed0f671" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/SendedCallsService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/SendedCallsService2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/SendedCallsService3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/SendedCallsService4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/dto/SendingCallResult.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/provider/email/EmailProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/provider/email/EmailProviderInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/provider/email/Utils/Attachs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/provider/email/Utils/Receiver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/repositories/Call/CallRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/repositories/Call/CallRepositoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/repositories/CallSendedLogs/CallSendedLogsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/repositories/CallSendedLogs/CallSendedLogsRepositoryInterface.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/provider/email/EmailProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/provider/email/EmailProviderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/provider/email/Utils/Attachs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example/provider/email/Utils/Receiver.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,16 +89,6 @@
       </file>
       <file leaf-file-name="SendingCallResult.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/dto/SendingCallResult.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attachs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/provider/email/Utils/Attachs.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -236,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1500363663433</updated>
       <workItem from="1500363664816" duration="4425000" />
-      <workItem from="1500451457822" duration="97000" />
+      <workItem from="1500451457822" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="init example">
       <created>1500451513643</created>
@@ -245,24 +226,45 @@
       <option name="project" value="LOCAL" />
       <updated>1500451513643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init example">
+      <created>1500451562606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500451562606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init example 2">
+      <created>1500451589262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500451589263</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init example 2">
+      <created>1500451604219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1500451604219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4522000" />
+    <option name="totallyTimeSpent" value="4920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -297,12 +299,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init example" />
-    <option name="LAST_COMMIT_MESSAGE" value="init example" />
+    <MESSAGE value="init example 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init example 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
