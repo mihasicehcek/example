@@ -29,14 +29,10 @@ class SendedCallsService5
      *
      * @param $calls CallsCollection
      *
-     * @param $from Carbon
-     *
-     * @param $to Carbon
-     *
      * @return SendingCallResult[]
      *
      * */
-    public function getSendingResult(CallsCollection $calls, Carbon $from, Carbon $to){
+    public function getSendingResult(CallsCollection $calls){
         $result = [];
 
         $this->callSendedRepo->loadSededCallsToCalls($calls);
@@ -57,7 +53,6 @@ class SendedCallsService5
         return $result;
     }
 
-    private $callsRepo;
     private $callSendedRepo;
 
 }
